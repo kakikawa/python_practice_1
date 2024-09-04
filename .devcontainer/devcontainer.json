@@ -1,0 +1,20 @@
+{
+    // nameはcomposeのコンテナネームに合わせると管理が楽。
+    "name": "python_100knocks",
+    "dockerComposeFile": [
+        // docker-compose.ymlを指定
+        "../docker-compose.yml"
+    ],
+    "service": "anaconda",
+    // コンテナ内のファイルシステム内でのプロジェクトのルートフォルダを指定
+    "workspaceFolder": "/workspace",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "MS-CEINTL.vscode-language-pack-ja",
+                "ms-python.autopep8",
+                "ms-toolsai.jupyter"
+            ]
+        }
+    }
+}
