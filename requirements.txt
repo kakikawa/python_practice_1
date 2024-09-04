@@ -1,0 +1,6 @@
+japanize_matplotlib
+pymc
+arviz
+graphviz
+factor_analyzer
+semopy
