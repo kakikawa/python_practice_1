@@ -1,6 +1,6 @@
 services:
   anaconda:
-    container_name: "python_100knocks"
+    container_name: "python_practice_1"
     # dockerイメージ
     image: continuumio/anaconda3
 

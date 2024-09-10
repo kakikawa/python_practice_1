@@ -1,6 +1,6 @@
 {
     // nameはcomposeのコンテナネームに合わせると管理が楽。
-    "name": "python_100knocks",
+    "name": "python_practice_1",
     "dockerComposeFile": [
         // docker-compose.ymlを指定
         "../docker-compose.yml"
