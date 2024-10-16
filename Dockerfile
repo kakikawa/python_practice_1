@@ -2,7 +2,7 @@
 FROM continuumio/anaconda3 
 
 # 作業ディレクトリを変更
-WORKDIR /home/jovyan/mywork
+WORKDIR /home/jovyan/workspace
 
 # ファイルのコピー
 COPY requirements.txt ${PWD}
