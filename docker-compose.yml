@@ -12,5 +12,5 @@ services:
       - .:/workspace
     # 左側の8080はホスト側なので、他のプロジェクトとバッティングしない数字を任意で割り当てる
     ports:
-      - 8003:8080
+      - 8001:8080
     command: jupyter notebook --ip 0.0.0.0 --port=8888 --allow-root --no-browser --NotebookApp.token=''
